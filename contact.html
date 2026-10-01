@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Personal Touch Essential Cleaning</title>
+<meta name="description" content="Let's talk about your cleaning needs. Contact Charlene Stratford at Personal Touch Essential Cleaning.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<section class="contact-wrap">
+  <div class="bubble d1" style="width:110px;height:110px;left:2%;top:11%;opacity:.8"></div>
+  <div class="bubble d3" style="width:50px;height:50px;left:46%;top:14%;opacity:.8"></div>
+  <div class="bubble d2" style="width:70px;height:70px;right:3%;bottom:18%;opacity:.8"></div>
+  <div class="ring" style="width:150px;height:150px;left:-40px;bottom:14%;border-color:rgba(255,255,255,.45)"></div>
+  <div class="ring" style="width:90px;height:90px;right:7%;top:16%;border-color:rgba(255,255,255,.45)"></div>
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's Talk About Your Cleaning Needs</h1>
+      <p class="lead">Whether you’re looking for regular cleaning, a deep clean, or have a specific cleaning request, we’d love to hear from you.</p>
+      <div class="info-card">
+        <div><b>Charlene Stratford</b><small>Personal Touch Essential Cleaning</small></div>
+        <a class="info-row" href="tel:+15188787124"><span class="ic"><i data-i="phone"></i></span>(518) 878-7124</a>
+        <a class="info-row" href="mailto:wilsaubi04@yahoo.com"><span class="ic"><i data-i="mail"></i></span>wilsaubi04@yahoo.com</a>
+      </div>
+    </div>
+    <div class="reveal" style="position:relative">
+      <div class="bubble" style="width:120px;height:120px;right:-30px;top:-60px;z-index:4"></div>
+      <div class="bubble d3" style="width:80px;height:80px;left:-34px;bottom:-30px;z-index:4"></div>
+      <form class="form-card" id="quote-form">
+        <h3>Request a Quote</h3>
+        <p>Tell us a little about what you need.</p>
+        <div class="fgrid">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="field full"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field full"><label for="service">Cleaning Service Needed</label>
+            <select id="service" name="service">
+              <option>Residential Cleaning</option><option>General Cleaning</option><option>Deep Cleaning</option>
+              <option>Move-In &amp; Move-Out Cleaning</option><option>Special Cleaning Needs</option><option>Mobile Cleaning Services</option>
+            </select></div>
+          <div class="field full"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit <i data-i="arrow"></i></button>
+        <p class="form-note" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </div>
+  <div class="cloud navy"></div>
+</section>
+
+<div id="site-footer"></div>
+<script src="script.js"></script>
+</body>
+</html>
